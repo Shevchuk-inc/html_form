@@ -39,8 +39,8 @@ body {
     position: absolute;
     display: flex;
     flex-wrap: wrap;
-    height: 73vh;
-    width: 50vh;
+    height: 35vh;
+    width: 30vh;
     flex-direction: column;
     padding: 1rem 1rem;
     background-color: #3c3c3c;
