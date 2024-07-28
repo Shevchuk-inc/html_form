@@ -1,0 +1,97 @@
+body {
+    background-image: url(https://fbi.cults3d.com/uploaders/13873179/illustration-file/c3306cdf-1046-45da-a0ec-9e39f87ce209/ARASAKA%20RENDER%202.jpg);
+    background-size: contain;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.content {
+    position: relative;
+    width: 90%;
+    height: 80vh;
+}
+
+.container-front {
+    position: absolute;
+    left: 8rem;
+    top: 3rem;
+}
+
+.container-back {
+    display: grid;
+    margin: unset;
+    margin: 5rem;
+    gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    color: aliceblue;
+    background-color: #7F0000;
+}
+
+.login {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    height: 73vh;
+    width: 50vh;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    background-color: #3c3c3c;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button {
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    color: aliceblue;
+    border: solid 1px;
+    border-radius: 4px;
+    transition: background-color 0.4s, color 0.4s;
+    text-decoration: none;
+}
+.login-button:hover {
+    background-color: #7F0000;
+    color: lightgray;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    margin: 7rem 2rem;
+
+}
+
+.signup-title {
+    margin: 3rem;
+}
+
+.signup-button {
+display: flex;
+align-content: center;
+padding: 10px 25px;
+cursor: pointer;
+font-size: 16px;
+background-color: transparent;
+color: aliceblue;
+border: 1px solid aliceblue;
+border-radius: 4px;
+transition: background-color 0.4s, color 0.4s;
+text-decoration: none;
+}
+.signup-button:hover {
+    background-color: #3c3c3c;
+    color: aliceblue;
+}
+
