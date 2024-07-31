@@ -5,35 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="content">
-        <div class="container-front">
-            <div class="login">
-                <form action="https://arasaka.jp" method="get">
-                    <div class="username">
-                        <label for="username"></label>
-                        <input type="text" id="username" name="username" placeholder="username" required>
+    <section class="wrapper">
+        <div class="form">
+            <div class="form__outer">
+                <form action="https://arasaka.jp" method="post">
+                    <div class="form__outer--content">
+                        <div class="form__input">
+                            <input type="text" name="username" placeholder="username" required>
+                        </div>
+                        <div class="form__input">
+                            <input type="text" name="password" placeholder="password" required>
+                        </div>
+                        <div class="form__action">
+                            <button class="form__action--submit btn" type="submit">
+                                Login
+                            </button>
+                        </div>
                     </div>
-                    <br>
-                    <div class="password">
-                        <label for="password"></label>
-                        <input type="text" id="password" name="password" placeholder="password" required>
-                    </div>
-                    <br>
-                    <br>
-                    <input type="submit" value="Login" class="login-button">
                 </form>
-                <br>
+            </div>
+
+            <div class="form__inner">
+                <div class="form__inner--content">
+                    <h1 class="form__title">
+                        Don't have an account?
+                    </h1>
+                    <a href="Registration.html">
+                        <button class="btn">
+                            Sign Up
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="container-back">
-            <div class="empty"></div>
-            <div class="signup">
-                <h2 class="signup-title">Don't have an account?</h2>
-                <a href="Registration.html" class="signup-button">Sign Up</a>
-            </div>
-        </div>
-    </div>
+    </section>
 </body>
 </html>
